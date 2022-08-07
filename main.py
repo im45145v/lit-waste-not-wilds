@@ -11,3 +11,7 @@ Fire_Reported = 0
 def play_function():
 	while True:
 		playsound.playsound('D:/guzzvm.mp3',True)
+while True:
+	(grabbed, frame) = video.read()
+	if not grabbed:break
+	frame = cv2.resize(frame, (960, 540))
