@@ -33,6 +33,7 @@ Alternate Methods:
 2)Cyan Magenta Yellow Key(CMYK)
 3)Convolutional Neural Networks
 4)Thermal Detection System
+5)CIE L*a*b* color space
 
 
 Conclusion:
