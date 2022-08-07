@@ -36,5 +36,10 @@ while True:
     		if Alarm_Status == False:
     			threading.Thread(target=play_function).start()
     			Alarm_Status = True
+    	if cv2.waitKey(1) == 13: 
+        	break	#if that key is pressed then the window closes
+
+cv2.destroyAllWindows()  #after breaking we destroy the window we opened to detect fire
+video.release()
             
 
