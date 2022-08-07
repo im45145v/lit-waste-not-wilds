@@ -25,12 +25,12 @@ body {
 
 .content-section-heading h2 {
   font-size: 3rem;
-  font-color: fff;
+  font-color: #fff;
 }
 
 .content-section-heading h3 {
   font-size: 1rem;
-  font-color: fff;
+  font-color: #fff;
   text-transform: uppercase;
 }
 
@@ -41,7 +41,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-color: fff;
+  font-color: #fff;
 }
 
 .text-faded {
@@ -86,7 +86,7 @@ h6 {
 
 .scroll-to-top i {
   font-weight: 800;
-  font-color: fff;
+  font-color: #fff;
 }
 
 .masthead {
@@ -105,7 +105,7 @@ h6 {
 
 .masthead h1 {
   font-size: 4rem;
-  font-color: fff;
+  font-color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -116,7 +116,7 @@ h6 {
   }
   .masthead h1 {
     font-size: 5.5rem;
-    font-color: fff;
+    font-color: #fff;
   }
 }
 
@@ -162,7 +162,7 @@ h6 {
 
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
-  font-color: fff;
+  font-color: #fff;
   background: rgba(52, 58, 64, 0.1);
   height: 80px;
   line-height: 50px;
@@ -215,7 +215,7 @@ h6 {
   display: block;
   line-height: 7.5rem;
   font-size: 2.25rem;
-  font-color: fff;
+  font-color: #fff;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -230,7 +230,7 @@ h6 {
 .callout h2 {
   font-size: 3.5rem;
   font-weight: 700;
-  font-color: fff;
+  font-color: #fff;
   display: block;
   max-width: 30rem;
 }
@@ -261,14 +261,14 @@ h6 {
 
 .portfolio-item .caption .caption-content h2 {
   font-size: 0.8rem;
-  font-color: fff;
+  font-color: #fff;
   text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
   font-size: 1.2rem;
-  font-color: fff;
+  font-color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -324,7 +324,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  font-color: fff;
+  font-color: #fff;
   background-color: #1D809F;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -372,7 +372,7 @@ a:hover, a:focus, a:active {
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
   font-weight: 700;
-  font-color: fff;
+  font-color: #fff;
 }
 
 .bg-primary {
