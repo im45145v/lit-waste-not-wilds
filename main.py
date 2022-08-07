@@ -10,7 +10,7 @@ Fire_Reported = 0
 #playsound lib functions
 def play_function():
 	while True:
-		playsound.playsound('D:/guzzvm.mp3',True) #alarm sound is played using playsound module
+		playsound.playsound('Alarmsound.mp3',True) #alarm sound is played using playsound module
 
 video = cv2.VideoCapture(0) 
 
