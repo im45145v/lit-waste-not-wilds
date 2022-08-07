@@ -22,3 +22,8 @@ while True:
 	upper = [35, 255, 255] #setting the upper and lower boundaries in a array
 	lower = np.array(lower, dtype="uint8")
     	upper = np.array(upper, dtype="uint8") #converting an array to an numpyarray since any operations can be done easily on a numpyarray
+	
+	mask = cv2.inRange(hsv, lower, upper)
+	
+    	output = cv2.bitwise_and(frame, hsv, mask=mask)
+    	no_red = cv2.countNonZero(mask)
