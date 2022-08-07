@@ -30,7 +30,7 @@ the exact position of fire and in many ways. There is much more way to develop t
 
 Alternate Methods:
 1)By using Y Cb Cr
-2)Cyan Magneta Yellow Key(CMYK)
+2)Cyan Magenta Yellow Key(CMYK)
 3)Convolutional Neural Networks
 4)Thermal Detection System
 
