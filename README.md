@@ -38,6 +38,7 @@ Conclusion:
 This project will be more helpful in public areas because in this busy world everyone is scheduled in their own work and not caring about the 
 surrounding until there is effect. This problem can be with help of our project regarding fire🔥🔥 problems.
 
+Run this command in the same directory where the main file is kept
 ```
 python main.py
 ```
