@@ -28,7 +28,13 @@ while True:
     	output = cv2.bitwise_and(frame, hsv, mask=mask)
     	no_red = cv2.countNonZero(mask)
     	if int(no_red) > 25000:
-        	Fire_Reported = Fire_Reported + 1
+        	Fire_Reported = Fire_Reported + 1 #checking if fire is detected or not and incrementing the value by 1 if detected
 
     	cv2.imshow("output", output)
+	if Fire_Reported >= 1:
+
+    		if Alarm_Status == False:
+    			threading.Thread(target=play_function).start()
+    			Alarm_Status = True
+            
 
