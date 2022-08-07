@@ -13,5 +13,8 @@ def play_function():
 		playsound.playsound('D:/guzzvm.mp3',True)
 while True:
 	(grabbed, frame) = video.read()
-	if not grabbed:break
+	if not grabbed:
+		break
 	frame = cv2.resize(frame, (960, 540))
+	blur = cv2.GaussianBlur(frame, (21, 21), 0)
+   	hsv = cv2.cvtColor(blur, cv2.COLOR_BGR2HSV)
